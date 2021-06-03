@@ -1,0 +1,15 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: local("Satisfy"), url(./font/Satisfy-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Stint";
+  src: local("Sting"),
+    url(./font//StintUltraCondensed-Regular.ttf) format("truetype");
+}

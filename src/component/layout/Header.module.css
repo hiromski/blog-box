@@ -1,0 +1,36 @@
+.banner{
+    background-image: url('../../pictures/coverphoto.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 25rem;
+    padding-top: 10px;
+    background-size:100%;
+    margin: 0;
+}
+
+.title {
+    padding-top: 20px;
+    font-size: 100px;
+    color: white;
+    font-family: 'Satisfy';
+}
+
+.subtitle {
+    font-size: 30px;
+    color: white;
+    font-family: 'Stint';
+}
+
+.post {
+    display: inline-block;
+    height: 40px;
+    padding: 10px 30px;
+    background: white;
+    letter-spacing: 0.03em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+}
