@@ -7,7 +7,7 @@ export function MainContent() {
       <div >
         <BlogPostForm />
       </div>
-      <div style={{textAlign: 'center'}}>
+      <div >
           <PastBlogPosts/>
       </div>
     </div>

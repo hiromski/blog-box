@@ -1,6 +1,6 @@
 .titleInput {
     border-radius: 6px;
-    width: 82%;
+    width: 400px;
     padding: 10px 20px !important;
     margin-top: 10px;
     margin-left: 20px;
@@ -11,7 +11,7 @@
 .contentInput {
     border-radius: 6px;
     color: #000000;
-    width: 90%;
+    width: 500px;
     height: 100px;
     margin-top: 10px;
     margin-left: 20px;
@@ -39,10 +39,16 @@
     margin-right: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 370px;
+    margin-left: 440px;
 }
 
 li {
+    list-style-type: none;
+    list-style-position:inside;
+    padding:0;
+}
+
+ul {
     list-style-type: none;
     list-style-position:inside;
     padding:0;

@@ -19,7 +19,7 @@ export function PastBlogPosts() {
           };
           pastPosts.push(post);
         }
-        setLoadedPastPosts(pastPosts)
+        setLoadedPastPosts(pastPosts.reverse())
       });
   }, []);
 
