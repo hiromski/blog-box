@@ -1,13 +1,17 @@
-import Form from "../ui/Form"
+import BlogPostForm from "./BlogPostForm";
+import PastBlogPosts from "./PastBlogPosts";
 
 export function MainContent() {
-    return(
-        <div>
-            <Form>
-                Main content
-            </Form>
-        </div>
-    )
+  return (
+    <div >
+      <div >
+        <BlogPostForm />
+      </div>
+      <div style={{textAlign: 'center'}}>
+          <PastBlogPosts/>
+      </div>
+    </div>
+  );
 }
 
-export default MainContent
+export default MainContent;

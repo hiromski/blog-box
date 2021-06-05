@@ -1,7 +1,6 @@
 .column {
   float: left;
   width: 20%;
-  text-align: center;
 }
 
 /* Clear floats after the columns */

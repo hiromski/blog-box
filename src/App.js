@@ -11,7 +11,7 @@ function App() {
         <div className={classes.column}>
           <RecentMenu />
         </div>
-        <div className={classes.column} style={{width: '60%', backgroundColor: 'grey'}}>
+        <div className={classes.column} style={{width: '60%'}}>
           <MainContent />
         </div>
         <div className={classes.column}>right-side</div>
